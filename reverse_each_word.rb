@@ -5,7 +5,7 @@ new_string = []
  string.each do |element|
    new_string << element.reverse 
  end
- return new_string.join
+ return new_string.join(" ")
  
 end
 
